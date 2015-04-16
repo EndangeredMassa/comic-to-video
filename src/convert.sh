@@ -18,6 +18,8 @@ for comic in comics/*.cbz; do
   video="$item.mp4"
   comic="$item.cbz"
 
+  echo "+ [audio] comics/$audio"
+
 
   # clean
   rm -f tmp/*
@@ -47,6 +49,6 @@ for comic in comics/*.cbz; do
     -t $time \
     videos/$video
 
-  echo "[video] videos/$video"
+  echo "= [video] videos/$video"
 done
 

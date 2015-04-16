@@ -15,6 +15,7 @@ should be passed in as the first parameter.
 ```
 $ ./src/convert.sh 5
 [comic] comics/valiant.cbz
-[video] videos/valiant.mp4
++ [audio] comics/valiant.mp3
+= [video] videos/valiant.mp4
 ```
 

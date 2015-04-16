@@ -13,7 +13,7 @@ should be passed in as the first parameter.
 ## example
 
 ```
-$ ./src/convert.sh 1
+$ ./src/convert.sh 5
 [comic] comics/valiant.cbz
 [video] videos/valiant.mp4
 ```
